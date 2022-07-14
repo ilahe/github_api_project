@@ -1,0 +1,110 @@
+body {
+    background-color: #F7F7F7 !important;
+}
+
+.font-semibold {
+    font-weight: 600 !important;
+}
+
+.text-base {
+    font-size: 1rem !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-gray-600 {
+    color: #293B41 !important;
+}
+
+.bg_gray {
+    background: #293B41;
+}
+
+.text-profile {
+    font-size: 12px;
+}
+
+.userSearch {
+    width: 308px;
+    height: 33px;
+    background: url("../assets/images/search.svg") #fff calc(100% - 13px) center / 12px 12px no-repeat;
+}
+
+.userSearch::placeholder {
+    color: #969696;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.dx-header-row > td {
+    padding: 7px 18px;
+}
+
+.dx-header-row > td > .dx-datagrid-text-content:not(.dx-sort-indicator):not(.dx-header-filter-indicator) {
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.dx-datagrid-borders > .dx-datagrid-filter-panel, .dx-datagrid-borders > .dx-datagrid-headers {
+    border-top: none;
+    /*border-bottom: 1px solid #190000;*/
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-bottom: 1px solid #000;
+}
+
+.dx-datagrid-borders > .dx-datagrid-rowsview, .dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-bottom: none;
+}
+
+.dx-datagrid .dx-column-lines > td {
+    border-right: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 10px 20px;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+    vertical-align: middle;
+}
+
+.dx-datagrid-borders > .dx-datagrid-headers,
+.dx-datagrid-borders > .dx-datagrid-rowsview,
+.dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-left: none;
+    border-right: none;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-group-space,
+.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td.dx-datagrid-group-space {
+    vertical-align: middle;
+    padding-top: 0;
+}
+
+.dx-datagrid-rowsview .dx-master-detail-row > .dx-master-detail-cell {
+    padding: 10px 25px;
+}
+
+.dx-datagrid-rowsview .dx-master-detail-row:not(.dx-datagrid-edit-form) .dx-master-detail-cell,
+.dx-datagrid-rowsview .dx-master-detail-row:not(.dx-datagrid-edit-form) > .dx-datagrid-group-space {
+    background-color: #fff;
+}
+
+.dx-datagrid-group-closed {
+    color: #000;
+}
+
+.profile_owner {
+    width: 240px;
+}
+
+.profile_data {
+    width: calc(100% - 270px);
+}
